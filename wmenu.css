@@ -1,0 +1,50 @@
+.logoimg {
+  position: absolute;    
+  top: 170px;
+  margin-left: 450px;
+}
+
+
+
+.menuheader {
+  display: block; 
+  color: #333333;
+  font-size: 16px; 
+  font-weight: bold;
+  padding: 1px 0px 1px 15px !Important;
+  margin: 15px 0px 0px 0px;
+  border: 0px;
+  width: 260px;
+  -moz-border-radius: 0 5px 0 5px;
+  -webkit-border-radius: 0 5px 0 5px;
+  -khtml-border-radius: 0 5px 0 5px;
+  border-radius: 0 5px 0 5px;
+  background: #FF9900; 
+}
+
+
+   
+
+ul li {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: 240px;
+  font-size: 12px;
+  list-style: none ;
+  border-bottom: 1px dashed #C39C4E;
+  padding: 1px 0px 1px 2px;
+  margin-left: 30px;}
+  
+ul {
+  display: inline-block !Important;
+  vertical-align: top;}
+
+li {display: block !Important;}
+
+li a {
+  color: #666666 !Important;
+  text-decoration: none;}
+
+li a:hover, a:focus {
+  color: #000000;
+  background-color: #bbbbbb;}
+

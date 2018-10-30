@@ -1,0 +1,17 @@
+#graphdiv {
+width: 100%;
+height: 95%;
+}
+
+.dygraph-legend {
+background-color: rgba(200, 200, 255, 0.75) !important;
+padding: 4px;
+border: 1px solid #000;
+pointer-events: none;
+width: 190px;
+margin-left: 10px;
+}  
+   
+.dygraph-legend > span { display: block;}
+.dygraph-legend > span.highlight {  font-weight: bold; background-color: #B0B0B0;}
+
