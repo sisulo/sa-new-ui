@@ -34,7 +34,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
   <!-- Subcontent css -->
-  <link rel="stylesheet" href="metro_styles.css">
+  <link rel="stylesheet" href="metro_styles.css">    
   <link rel="stylesheet" href="dygraph.css">
   <!-- Custom css -->
   <link rel="stylesheet" href="custom.css">
@@ -66,18 +66,60 @@ desired effect
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="box box-solid">
             <div class="box-header">
-                <i class="fa fa-bar-chart-o"></i>
+                <i class="fa  fa-heartbeat"></i>
 
-                <h3 class="box-title">Infrastructure statistics</h3>
+                <h3 class="box-title">Infrastructure Helth and SLA Stats</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
                 <div class="row">
-                    
+ <!-- =============================================Ales koduje...;-) =============================================START -->                    
+             <!-- Vlozeni hranateho batche -->
+             <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-orange"><i class="glyphicon glyphicon-warning-sign"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Channel Adapters Disbalance Detected</span>
+              <span class="info-box-number">5<small> Times</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+                 
+         <!-- Vlozeni hranateho batche -->
+             <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-red"><i class="fa fa-warning (alias)"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Breach SLA on DP Pools</span>
+              <span class="info-box-number">98<small> Times</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        
+ <!-- =============================================Ales koduje...;-) =============================================END -->
+            
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="box box-solid">
+            <div class="box-header">
+                <i class="fa fa-bar-chart-o"></i>
+
+                <h3 class="box-title">Infrastructure Performance Stats</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <div class="row">
+            
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 text-center">
                         <div class="custom-knob-label workload-knob-label"></div>
                         <input type="text" class="workload" value="100" data-skin="tron" data-thickness="0.3" data-min="0" data-max="1" data-width="150" data-height="150" data-fgcolor="#a09608" data-readonly="true" readonly="readonly" style="font: bold 13px Arial" />        
-                        
+                         
                         <div class="workload-knob-label"></div>
                     </div>
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 text-center">

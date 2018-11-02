@@ -1,8 +1,8 @@
 var dataset = {
     "workload" : {
-        "value" : "99.9M",
-        "unit" : "IOPs",
-        "peak" : 25555,
+        "value" : 19.9,
+        "unit" : "%",
+        "peak" : 25,
         "label" : "Workload"
     },
     "response" : {
