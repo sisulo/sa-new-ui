@@ -1,13 +1,31 @@
-body { 
- width: 1000px; 
- margin: 0px auto;
- margin-top: 10px;
- font-family: "Calibri Light", Helvetica, sans-serif;
- font-size: 14px;  
- color: black;
- background: #f3f3f3;  
+@@ -0,0 +1,435 @@
+/*body { */
+ /*width: 1000px; */
+ /*margin: 0px auto;*/
+ /*margin-top: 10px;*/
+ /*font-family: "Calibri Light", Helvetica, sans-serif;*/
+ /*font-size: 14px;  */
+ /*color: black;*/
+ /*background: #f3f3f3;  */
+/*}*/
+::-webkit-scrollbar {
+    width: 7px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1e5474; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3c8dbc; 
+}
 a:link    {color:darkblue;}
 a:visited {color:darkblue;}
 a:hover   {color:darkgreen;}
@@ -80,7 +98,7 @@ table.tb2 {
    font-weight: bold; 
    margin: 2px;}
 .tb2 tbody tr:nth-child(0) {background: #dfebff !important;}
-.tb2 tbody th:nth-child(1) {text-align: center !Important; padding-left: 2px;  white-space: nowrap; width: 13%;}
+.tb2 tbody th:nth-child(1) {text-align: left !Important; padding-left: 2px;  white-space: nowrap; width: 10%;}
 .tb2 tbody td {text-align: center; padding: 2px;}
 .tb2 tbody tr:hover *{background-color:#cdffa9;}
 .tb2 tbody tr {background: #F8F8F8;}
@@ -415,39 +433,4 @@ a.overwarning {
 
 a.overwarning:hover {
    text-decoration: underline; 
-}
-
-
-.expand-label{cursor: pointer;}
-
-.expand-label::before{
-  float: left;
-  content: "\25BA"; 
-  font-size: 12px; 
-  transition: transform .5s;
-}
-
-.expand-input{display: none}
-
-.expand-input:checked + .expand-label::before{
-  transform: rotate(90deg);
-  transition: transform .5s;
-  color: green;
-  float: left; 
-  margin-top: 0px;
-}
-
-
-.chck_item {
-  float: left; 
-  margin-top: 0px; 
-  margin-left: 20px; 
-  text-align: left;	
-} 
-
-.hide {
-  style="display: none;  
-  font-style: italic; 
-  font-weight: normal; 
-  font-size: 10px; 
 }

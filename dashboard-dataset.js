@@ -1,32 +1,32 @@
 var dataset = {
     "workload" : {
-        "value" : 19.9,
-        "unit" : "%",
-        "peak" : 25,
+        "value" : "963 500",
+        "unit" : "IOPs",
+        "peak" : "2.3M",
         "label" : "Workload"
     },
     "response" : {
-        "value" : 555,
+        "value" : 1.23,
         "unit" : "ms",
-        "peak" : 11231,
+        "peak" : 28,
         "label" : "Response"
     },
     "transfer" : {
-        "value" : 12,
+        "value" : 45.3,
         "unit" : "GB/s",
-        "peak" : 999999,
+        "peak" : 66.9,
         "label" : "Transfer"
     },
     "hdd" : {
         "value" : 23.9,
         "unit" : "%",
-        "peak" : 89.5,
+        "peak" : 69.5,
         "label" : "HDD"
     },
     "cpu" : {
-        "value" : 55,
+        "value" : 21,
         "unit" : "%",
-        "peak" : 89.1,
+        "peak" : 78.1,
         "label" : "CPU"
     }
 

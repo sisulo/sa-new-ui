@@ -68,12 +68,12 @@ desired effect
             <div class="box-header">
                 <i class="fa  fa-heartbeat"></i>
 
-                <h3 class="box-title">Infrastructure Helth and SLA Stats</h3>
+                <h3 class="box-title">Last 24 Hours Infrastructure Helth and Status</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
                 <div class="row">
- <!-- =============================================Ales koduje...;-) =============================================START -->                    
+ <!-- START=============================================Ales koduje...;-) ============================================= -->                    
              <!-- Vlozeni hranateho batche -->
              <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
@@ -102,7 +102,182 @@ desired effect
           <!-- /.info-box -->
         </div>
         
- <!-- =============================================Ales koduje...;-) =============================================END -->
+          <!-- Vlozeni hranateho batche ion-ios-pie-->
+             <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-pie-chart"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Max DP Pool Physical Usage</span>
+              <span class="info-box-number">68<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        
+             <!-- =========================================================== -->
+
+      <!-- Small boxes (Stat box) -->
+      <div class="row">
+
+         <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>25<sup style="font-size: 20px">%</sup></h3>
+
+              <p>Max CPU Utilization</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-wheelchair"></i>
+            </div>
+            <a href="#" class="small-box-footer">
+              More info <i class="fa fa-arrow-circle-right"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>10<sup style="font-size: 20px">%</sup></h3>
+
+              <p>Cache Write Pending per CPU</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-ios-speedometer"></i>
+            </div>
+            <a href="#" class="small-box-footer">
+              More info <i class="fa fa-arrow-circle-right"></i>
+            </a>
+          </div>
+        </div>
+         <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box bg-orange">
+            <span class="info-box-icon"><i class="fa fa-balance-scale"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Channel Adapter Disbalances Detected </span>
+              <span class="info-box-number">8</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+                  <span class="progress-description">
+                    90% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+                 <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box bg-red">
+            <span class="info-box-icon"><i class="ion ion-ios-toggle"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Breach SLA on DP Pools</span>
+              <span class="info-box-number">98</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 25%"></div>
+              </div>
+                  <span class="progress-description">
+                    25% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+       </div>
+      <!-- /.row -->
+
+      <!-- =========================================================== -->
+        
+              <!-- /.row -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box box-solid">
+            <div class="box-header with-border">
+              <h3 class="box-title">30-Days Histogram</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body text-center">
+              <p>30 Days history of Breach SLA occurences on DP all Pools</p>
+
+              <div class="progress vertical active">
+                <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="height: 40%">
+                  <span class="sr-only">90%</span>
+                </div>
+              </div>
+              <div class="progress vertical progress-sm">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 100%">
+                  <span class="sr-only">100%</span>
+                </div>
+              </div>
+              <div class="progress vertical progress-xs">
+                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 60%">
+                  <span class="sr-only">60%</span>
+                </div>
+              </div>
+              <div class="progress vertical progress-xxs">
+                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 60%">
+                  <span class="sr-only">100%</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col (left) -->
+        
+      <div class="col-md-4">
+          <div class="box box-solid">
+            <div class="box-header">
+              <h3 class="box-title text-warning">Sparkline Bar</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body text-center">
+              <div class="sparkline" data-type="bar" data-width="97%" data-height="100px" data-bar-width="14" data-bar-spacing="7" data-bar-color="#f39c12"><canvas width="224" height="100" style="display: inline-block; width: 224px; height: 100px; vertical-align: top;"></canvas></div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        
+       <div class="col-md-4">
+          <div class="box box-solid">
+            <div class="box-header">
+              <h3 class="box-title text-warning">Sparkline Bar</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body text-center">
+              <div class="sparkline" data-type="bar" data-width="97%" data-height="100px" data-bar-Width="14" data-bar-Spacing="7" data-bar-Color="#f39c12">
+                6,4,8, 9, 10, 5, 13, 18, 21, 7, 9
+              </div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+
+ <!-- END=============================================Ales koduje...;-) ============================================= -->
             
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -164,7 +339,7 @@ desired effect
         <div class="col-sm-6 col-md-6 col-lg-6">
             <div class="info-box">
             <!-- Apply any bg-* class to to the icon to color it -->
-            <span class="info-box-icon bg-blue">22</span>
+            <span class="info-box-icon bg-blue">23</span>
             <div class="info-box-content">
                 <h2>Registered systems</h2>
             </div><!-- /.info-box-content -->
