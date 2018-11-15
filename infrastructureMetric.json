@@ -1,0 +1,41 @@
+{
+  "datacentersCount": 6,
+  "registeredSystemsCount": 22,
+  "metrics" : [
+    {
+      "id" : "workload",
+      "value" : "123123",
+      "unit" : "IOPs",
+      "peak" : 25555,
+      "label" : "Workload"
+    },
+    {
+      "id" : "response",
+      "value" : 555,
+      "unit" : "ms",
+      "peak" : 11231,
+      "label" : "Response"
+    },
+    {
+      "id" : "transfer",
+      "value" : 12,
+      "unit" : "GB/s",
+      "peak" : 999999,
+      "label" : "Transfer"
+    },
+    {
+      "id" : "hdd",
+      "value" : 23.9,
+      "unit" : "%",
+      "peak" : 89.5,
+      "label" : "HDD"
+    },
+    {
+      "id" : "cpu",
+      "value": 55,
+      "unit": "%",
+      "peak": 89.1,
+      "label": "CPU"
+    }
+  ]
+}
