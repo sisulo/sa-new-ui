@@ -1,0 +1,27 @@
+{
+  //Each datacenter has own file
+  //name: <name_datacenter>.json
+  "id": "01",
+  "label": "CZ_Chodov",
+  "systems": [
+    {
+      "name": "XP_7_G11_58417",
+      "metrics": [
+        {
+          "name":"Workload",
+          "value": 56152,
+          "unit": "IOPS",
+          "peak": "10000",
+          "date": "2018-11-01"
+        },
+        {
+          "name":"Transfer",
+          "value": 535215,
+          "unit": "Mbps",
+          "peak": "10000000",
+          "date": "2018-11-02"
+        }
+      ]
+    }
+  ]
+}

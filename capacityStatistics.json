@@ -1,0 +1,29 @@
+{ //Each datacenter has own file
+  //name: <name_datacenter>.json
+  "id": "01",
+  "label": "CZ_Chodov",
+  "systems": [
+    {
+      "name": "XP_7_G11_58417",
+      "pools": [
+        {
+          "name": "Pool#1 15k-T1",
+          "metrics": [
+            {
+              "name": "Physical subs",
+              "value": 83.2,
+              "unit": "%",
+              "date": "2018-11-01"
+            },
+            {
+              "name": "Physical capcity",
+              "value": 122,
+              "unit": "TB",
+              "date": "2018-11-02"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
